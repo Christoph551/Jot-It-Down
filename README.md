@@ -28,7 +28,7 @@ Please refer to these links for documentation on these dependencies:
 
 ## Deployment
 
-Heroku Link: 
+Heroku Link: https://glacial-everglades-16556.herokuapp.com/
 
 ## Usage
 
