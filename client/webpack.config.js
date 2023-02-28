@@ -19,7 +19,7 @@ module.exports = () => {
       // Webpack that generates HTML file
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'JATE'
+        title: 'Just Another Text Editor'
       }),
       // Injects service worker
       new InjectManifest({
@@ -31,10 +31,10 @@ module.exports = () => {
         fingerprints: false,
         inject: true,
         name: 'Just Another Text Editor',
-        short_name: 'JATE',
+        short_name: 'J.A.T.E.',
         description: 'Have the ability to write code snippets in a text editor, even in offline mode.',
-        background_color: '#225ca3',
-        theme_color: '#225ca3',
+        background_color: '#ffffff',
+        theme_color: '#ffffff',
         start_url: './',
         publicPath: './',
         icons: [
