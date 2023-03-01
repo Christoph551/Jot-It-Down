@@ -14,7 +14,6 @@ const initdb = async () =>
 
 
 export const putDb = async (content) => {
-  console.error('putDb not implemented');
   // Create a connection to the database database and version we want to use.
   const jateDb = await openDB('jate', 1);
   // Create the transaction and have ability to perform R and U CRUD operations
@@ -30,8 +29,6 @@ export const putDb = async (content) => {
 
 
 export const getDb = async () => {
-  console.error('getDb not implemented');
-
   const jateDb = await openDB('jate', 1);
   // Setting data priveleges to read only for getDb
   const tx = jateDb.transaction('jate', 'readonly');
